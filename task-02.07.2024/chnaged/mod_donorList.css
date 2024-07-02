@@ -1,0 +1,116 @@
+.mod_donorList.event-list {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mod_donorList li.donor-list {
+  column-gap: 35px;
+  row-gap: 35px;
+  display: flex;
+  align-items: center;
+}
+.mod_donorList li.donor-list.event-list-item {
+  padding: 25px;
+}
+@media (min-width: 600px) {
+  .mod_donorList li.donor-list.event-list-item {
+    padding: 35px;
+  }
+}
+.mod_donorList li.donor-list:hover {
+  background-color: #f9f9f9;
+}
+@media (max-width: 767px) {
+  .mod_donorList li.donor-list {
+    flex-wrap: wrap;
+  }
+}
+.mod_donorList li.donor-list:before {
+  display: none;
+}
+.mod_donorList li.donor-list .event-list-item-website {
+  font-size: 16px;
+  width: 35%;
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .mod_donorList li.donor-list .event-list-item-website {
+    width: 100%;
+    text-align: center;
+  }
+}
+.mod_donorList li.donor-list .event-list-item-website a:hover {
+  color: #333;
+  border-color: #333;
+}
+.mod_donorList li.donor-list .event-list-item-logo {
+  width: 20%;
+  aspect-ratio: 1/1;
+}
+.mod_donorList li.donor-list .event-list-item-logo .image-holder {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: #d8d8d8;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.mod_donorList li.donor-list .event-list-item-logo .image-holder img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .mod_donorList li.donor-list .event-list-item-logo {
+    margin: 0 auto;
+    width: 150px;
+  }
+}
+.mod_donorList li.donor-list .event-list-item-text {
+  width: 80%;
+}
+.mod_donorList li.donor-list .event-list-item-text a:hover {
+  color: #333;
+  border-color: #333;
+}
+.mod_donorList li.donor-list .event-list-item-text h2 {
+  color: #4da274;
+  font-size: 2.1rem;
+  line-height: 2.6rem;
+}
+.mod_donorList li.donor-list .event-list-item-text h2:first-child {
+  margin-top: 0px;
+}
+@media (max-width: 767px) {
+  .mod_donorList li.donor-list .event-list-item-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+.mod_donorList li.donor-list .event-list-item-text p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 1.8rem 0;
+}
+.mod_donorList li.donor-list .event-list-item-text p:first-child {
+  margin-top: 0px;
+}
+.mod_donorList li.donor-list .event-list-item-text p:last-child {
+  margin-bottom: 0px;
+}
+
+
+
+/* mod_eventList */
+.mod_eventList .event-list-sponsor-logo{
+  padding: 15px;
+  background-color: #d8d8d8;
+  max-width: 170px;
+  height: auto;
+  margin-top: 15px;
+}
+/* mod_eventList */
